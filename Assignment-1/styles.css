@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #101010;
     color: white;
     padding: 1rem 2rem;
     position: sticky;
@@ -81,8 +81,24 @@ header {
     margin-top: 1rem;
 }
 
+#home {
+    background-image: linear-gradient(to bottom, #f0a500, #e7bc5f );
+}
+
+#about {
+    background-image: linear-gradient(to bottom, #e7bc5f, #ef7c5f );
+}
+
+#services {
+    background-image: linear-gradient(to bottom, #ef7c5f, #f05d39 );
+}
+
+#contact {
+    background-image: linear-gradient(to bottom, #f05d39, #36160e );
+}
+
 footer {
-    background-color: #333;
+    background-image: linear-gradient(to bottom, #36160e, #101010);
     color: white;
     text-align: center;
     padding: 1rem 0;
